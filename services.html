@@ -8,7 +8,7 @@
 
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link rel="stylesheet" href="carousel.css"  crossorigin="anonymous">
   <link rel="stylesheet" href="hover.css"  crossorigin="anonymous">
@@ -76,212 +76,149 @@
     
   </style>
 
-  <title>Hello, world!</title>
+
 </head>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Wacko Hemp</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler btn-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class=""><i class="fal fa-eye"></i></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="https://wackohemp.com/home.html">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link " href="https://wackohemp.com/about.html">About</a>
+        <a class="nav-item nav-link " href="https://wackohemp.com/home.html">Home <span
+            class="sr-only">(current)</span></a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">About</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="https://wackohemp.com/about.html#location">Wacko Springs Ranch</a>
+            <a class="dropdown-item" href="https://wackohemp.com/about.html#farmers">Wacko Farmers</a>
+            <a class="dropdown-item" href="https://wackohemp.com/about.html#wwoofing">WWOOFing</a>
+          </div>
+        </li>
         <a class="nav-item nav-link" href="https://wackohemp.com/strains.html">Strains</a>
+        <a class="nav-item nav-link" href="https://wackohemp.com/products.html">Products</a>
         <a class="nav-item nav-link active" href="https://wackohemp.com/services.html">Services</a>
         <a class="nav-item nav-link" href="https://wackohemp.com/about.html#contact">Contact</a>
-       <a class="btn btn-light btn-lg btn-outline-primary" data-toggle="tooltip" data-placement="bottom" title="Hooray!" href="tel:+1 970-783-1819">Call now <i class="fal fa-phone-square"></i></a>
+        <a class="btn btn-light btn-lg btn-outline-primary" data-toggle="tooltip" data-placement="bottom"
+          title="tel:+1 970-783-1819" href="tel:+1 970-783-1819">Call now <i class="fal fa-phone-square"></i></a>
       </div>
     </div>
   </nav>
-
 <body>
-  <!-- Opening Carousel -->
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="1.jpg" alt="First slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="2.jpg" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="3.jpg" alt="Third slide">
-      </div>
-    </div>
-  </div>
-
-  <!-- Mission Jumbotron-->
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Fluid jumbotron</h1>
-      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-    </div>
-  </div>
-
-  <!-- Product Preview -->
-  <div class="container">
     <div class="row">
-      <div class="col">
-        1 of 2
-      </div>
-      <div class="col">
-        2 of 2
-      </div>
+        <div class="card bg-dark text-white" style="border:none;">
+            <img class="card-img" src="about.jpg" alt="Hemp Plants Colorado" style="opacity: 0.7; border:none;">
+            <div class="card-img-overlay">
+              <h1 class="card-title" style="padding-top:10%; padding-left:10%;">Wacko Farming</h1>
+              <p class="card-text" style="padding-left:10%;">From farm planning to harvest and processing support, we are here to help.</p>
+              <p class="card-text"style="padding-left:10%;"><a href="https://www.wackohemp.com/contact" class="text-white"> Contact Us for more information</a></p>
+            </div>
+          </div>
     </div>
-    <div class="row">
-      <div class="col">
-        1 of 3
-      </div>
-      <div class="col">
-        2 of 3
-      </div>
-      <div class="col">
-        3 of 3
-      </div>
-    </div>
-  </div>
-
-  <!-- Three columns -->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        1 of 3
-      </div>
-      <div class="col">
-        2 of 3
-      </div>
-      <div class="col">
-        3 of 3
-      </div>
-    </div>
-  </div>
-
-
   <!-- Row -->
   <div class="container">
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
+      <!-- START THE FEATURETTES -->
+      <div class="row featurette" style="padding-top:5%;">
+          <div class="col-md-10">
+            <h2 class="featurette-heading">Wacko Farm Consulting <span class="text-muted">farm support services</span></h2>
+            <p class="lead">We understand the process of hemp farming.  At all times throughout the season we have experienced farmers available to assist with your farming needs.</p>
+          </div>
+        </div>
+    
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Shovel Ready <span class="text-muted">planting support</span></h2>
+          <p class="lead">We have farming support to help you get plants in the ground and keep your harvest on schedule.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="seed3.jpg" alt="Generic placeholder image">
+        </div>
       </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto" src="holder.js/500x500/auto" alt="Generic placeholder image">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-
-
-        
-          <div class="flip-box">
-              <div class="flip-box-inner">
-                <div class="flip-box-front">
-                  <img class="featurette-image img-fluid mx-auto" src="1.jpg" alt="Paris" style="width:300px;height:200px">
-                </div>
-                <div class="flip-box-back" style="color:black;">
-                  <h2>Flip Text</h2>
-                  <p>get some</p>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Farm Planning <span class="text-muted">land planning and strain selection</span></h2>
+          <p class="lead">We bring years of farming experience to the table.  Strain selection can help setup the farming season for success.  Dependingo n the desired end product, certain strains are more desireable.  Let us help you.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+  
+  
+          
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img class="featurette-image img-fluid mx-auto" src="plant.jpg" alt="Cannabis Plant" style="width:300px;height:200px">
+                  </div>
+                  <div class="flip-box-back" style="color:black;">
+                    <h2>Flip Text</h2>
+                    <p>get some</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <!-- 
-        <img class="featurette-image img-fluid mx-auto" src="1.jpg" alt="1.jpg">
-
-        -->
-
+  
+              <!-- 
+          <img class="featurette-image img-fluid mx-auto" src="1.jpg" alt="1.jpg">
+  
+          -->
+  
+        </div>
       </div>
-    </div>
-    <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
-
-
-    <!-- /END THE FEATURETTES -->
-  </div>
-
-  <!-- Three columns -->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        1 of 3
-      </div>
-      <div class="col">
-        2 of 3
-      </div>
-      <div class="col">
-        3 of 3
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Row -->
-  <div class="container">
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto" src="holder.js/500x500/auto" alt="Generic placeholder image">
-      </div>
+      <!-- /END THE FEATURETTES -->
     </div>
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
+  
+    <!-- Row -->
+    <div class="container">
+      <!-- START THE FEATURETTES -->
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Harvest Support <span class="text-muted">end of growth cycle support</span></h2>
+          <p class="lead">We are familiar with various methods of harvesting, storing, and curing for final prodcut.  Let us support you during your first or next harvest.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="seed1.jpg" alt="Generic placeholder image">
+        </div>
       </div>
-      <div class="col-md-5 order-md-1">
-        <img class="featurette-image img-fluid mx-auto" src="holder.js/500x500/auto" alt="Generic placeholder image">
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Plant Maintenance <span class="text-muted">intermeidate step support</span></h2>
+          <p class="lead">Whether you are new to farming, or headed on a much needed vacation, we are available to support interseason farm needs for licensed hemp farmers.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="featurette-image img-fluid mx-auto" src="flower2.jpg" alt="Generic placeholder image">
+        </div>
       </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">ONE LOVE <span class="text-muted">abundance for all</span></h2>
+          <p class="lead">We believe in abundance for all living beings.  From us to you, may your season be filled with light and water, and may your harvest be full of life and love.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="seed2.jpg" alt="Cannabis Clones">
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <!-- /END THE FEATURETTES -->
     </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto" src="holder.js/500x500/auto" alt="Generic placeholder image">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
-  </div>
 
  <!-- button fixed bottomw -->
  <div class="fixed-bottom" style="padding:5%; text-align: right;">
@@ -290,14 +227,45 @@
     </div>
   </div>
 
-  <footer>
+  <!-- Footer Jumbotron-->
+  <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
 
-  </footer>
+  
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+  
+            <ul class="list-unstyled text-small ">
+              <li><a href="https://www.projectcbd.org">Project CBD</a></li>
+              <li><a class="text-muted" href="https://www.colorado.gov/pacific/agplants/industrial-hemp">Colorado
+                  Industrial Hemp</a></li>
+              <li><a class="text-muted" href="https://wwoofusa.org/">WWOOFing</a></li>
+              <!-- <li><a class="text-muted" href="#">Final resource</a></li> -->
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="https://wackohemp.com/about.html#woofing">WWooFing at Wacko</a></li>
+              <li><a class="text-muted" href="https://wackohemp.com/products.html#steps">Purchasing Steps</a></li>
+              <li><a class="text-muted" href="https://wackohemp.com/terms.html">Shipping Details</a></li>
+              <!-- <li><a class="text-muted" href="#">Terms</a></li> -->
+            </ul>
+          </div>
+          <div class="col-12 col-md">
+              <small class="d-block mb-3 text-muted">&copy; 2019 Wacko Hemp | Site designed by <a href="https://www.cliffrodriguez.com>">Cliff
+                Rodriguez</a></small>
+             
+            </div>
+        </div>
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 

@@ -77,22 +77,33 @@
   
   </style>
 
-  <title>Hello, world!</title>
+ 
 </head>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Wacko Hemp</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler btn-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class=""><i class="fal fa-eye"></i></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link" href="https://wackohemp.com/home.html">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="https://wackohemp.com/about.html">About</a>
+        <a class="nav-item nav-link " href="https://wackohemp.com/home.html">Home <span
+            class="sr-only">(current)</span></a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">About</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="https://wackohemp.com/about.html#location">Wacko Springs Ranch</a>
+            <a class="dropdown-item" href="https://wackohemp.com/about.html#farmers">Wacko Farmers</a>
+            <a class="dropdown-item" href="https://wackohemp.com/about.html#wwoofing">WWOOFing</a>
+          </div>
+        </li>
         <a class="nav-item nav-link active" href="https://wackohemp.com/strains.html">Strains</a>
+        <a class="nav-item nav-link" href="https://wackohemp.com/products.html">Products</a>
         <a class="nav-item nav-link" href="https://wackohemp.com/services.html">Services</a>
         <a class="nav-item nav-link" href="https://wackohemp.com/about.html#contact">Contact</a>
-       <a class="btn btn-light btn-lg btn-outline-primary" data-toggle="tooltip" data-placement="bottom" title="Hooray!" href="tel:303-807-1435">Call now <i class="fal fa-phone-square"></i></a>
+        <a class="btn btn-light btn-lg btn-outline-primary" data-toggle="tooltip" data-placement="bottom"
+          title="tel:+1 970-783-1819" href="tel:+1 970-783-1819">Call now <i class="fal fa-phone-square"></i></a>
       </div>
     </div>
   </nav>
@@ -290,9 +301,40 @@
     </div>
   </div>
 
-  <footer>
-
-  </footer>
+    <!-- Footer Jumbotron-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="row">
+  
+    
+            <div class="col-6 col-md">
+              <h5>Resources</h5>
+    
+              <ul class="list-unstyled text-small ">
+                <li><a href="https://www.projectcbd.org">Project CBD</a></li>
+                <li><a class="text-muted" href="https://www.colorado.gov/pacific/agplants/industrial-hemp">Colorado
+                    Industrial Hemp</a></li>
+                <li><a class="text-muted" href="https://wwoofusa.org/">WWOOFing</a></li>
+                <!-- <li><a class="text-muted" href="#">Final resource</a></li> -->
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>About</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="https://wackohemp.com/about.html#woofing">WWooFing at Wacko</a></li>
+                <li><a class="text-muted" href="https://wackohemp.com/products.html#steps">Purchasing Steps</a></li>
+                <li><a class="text-muted" href="https://wackohemp.com/terms.html">Shipping Details</a></li>
+                <!-- <li><a class="text-muted" href="#">Terms</a></li> -->
+              </ul>
+            </div>
+            <div class="col-12 col-md">
+                <small class="d-block mb-3 text-muted">&copy; 2019 Wacko Hemp | Site designed by <a href="https://www.cliffrodriguez.com>">Cliff
+                  Rodriguez</a></small>
+               
+              </div>
+          </div>
+        </div>
+      </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

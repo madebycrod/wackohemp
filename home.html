@@ -1,379 +1,488 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    
-  <link rel="stylesheet" href="carousel.css"  crossorigin="anonymous">
-  <link rel="stylesheet" href="hover.css"  crossorigin="anonymous">
-  <link rel="stylesheet" href="jumbotron.css"  crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="carousel.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="hover.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="jumbotron.css" crossorigin="anonymous">
 
   <!-- Font Awesome Pro-->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
 
-<link rel="canonical" href="https://www.wackhemp.com/" >
+  <link rel="canonical" href="https://www.wackhemp.com/">
 
-<meta name="description" content="Hemp products, including clones, seeds, bio-mass, tincture, and flower. All hemp products are tested and made from sustainably grown hemp from a farm on Wacko Springs Ranch in Delta, Colorado.">
+  <meta name="description"
+    content="Hemp products, including clones, seeds, bio-mass, tincture, and boutique flower. All hemp products are tested and made from organically grown hemp from a farm on Wacko Springs Ranch in Delta, Colorado.">
 
-<meta name="keywords" content="Wacko Hemp, Colorado Hemp Seeds, Hemp Seeds, Hemp Clones, hemp biomass, Wacko Springs, legal hemp, Colorado Hemp, Colorado, Hemp, Organically Grown,">
-<meta name="author" content="Cliff Rodriguez">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords"
+    content="Wacko Hemp, Colorado Hemp Seeds, Hemp Seeds, Hemp Clones, hemp biomass, Wacko Springs, legal hemp, Colorado Hemp, Colorado, Hemp, Organically Grown,">
+  <meta name="author" content="Cliff Rodriguez">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-<title>Wacko Hemp</title>
+  <title>Wacko Hemp</title>
 
 
-<style>
-  /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-box {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
+  <style>
+    /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+    .flip-box {
+      background-color: transparent;
+      width: 300px;
+      height: 200px;
+      border: 1px solid #f1f1f1;
+      perspective: 1000px;
+      /* Remove this if you don't want the 3D effect */
+    }
 
-/* This container is needed to position the front and back side */
-.flip-box-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform .8s;
-  transform-style: preserve-3d;
-}
+    /* This container is needed to position the front and back side */
+    .flip-box-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform .8s;
+      transform-style: preserve-3d;
+    }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
-}
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-box:hover .flip-box-inner {
+      transform: rotateY(180deg);
+    }
 
-/* Position the front and back side */
-.flip-box-front, .flip-box-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
+    /* Position the front and back side */
+    .flip-box-front,
+    .flip-box-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+    }
 
-/* Style the front side (fallback if image is missing) */
-.flip-box-front {
-  background-color: #bbb;
-  color: black;
-}
+    /* Style the front side (fallback if image is missing) */
+    .flip-box-front {
+      background-color: #bbb;
+      color: black;
+    }
 
-/* Style the back side */
-.flip-box-back {
-  background-color: #FFFFFF;
-  color: white;
-  transform: rotateY(180deg);
-}
-  
+    /* Style the back side */
+    .flip-box-back {
+      background-color: #FFFFFF;
+      color: white;
+      transform: rotateY(180deg);
+    }
   </style>
 
-  <title>Hello, world!</title>
+
 </head>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Wacko Hemp</a>
-    <button class="navbar-toggler btn-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class=""><i class="fal fa-eye"></i></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="https://wackohemp.com/home.html">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link " href="https://wackohemp.com/about.html">About</a>
-        <a class="nav-item nav-link" href="https://wackohemp.com/strains.html">Strains</a>
-        <a class="nav-item nav-link" href="https://wackohemp.com/services.html">Services</a>
-        <a class="nav-item nav-link" href="https://wackohemp.com/about.html#contact">Contact</a>
-       <a class="btn btn-light btn-lg btn-outline-primary" data-toggle="tooltip" data-placement="bottom" title="tel:+1 970-783-1819" href="tel:+1 970-783-1819">Call now <i class="fal fa-phone-square"></i></a>
-      </div>
+  <a class="navbar-brand" href="#">Wacko Hemp</a>
+  <button class="navbar-toggler btn-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class=""><i class="fal fa-eye"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="https://wackohemp.com/home.html">Home <span
+          class="sr-only">(current)</span></a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">About</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="https://wackohemp.com/about.html#location">Wacko Springs Ranch</a>
+          <a class="dropdown-item" href="https://wackohemp.com/about.html#farmers">Wacko Farmers</a>
+          <a class="dropdown-item" href="https://wackohemp.com/about.html#wwoofing">WWOOFing</a>
+        </div>
+      </li>
+      <a class="nav-item nav-link" href="https://wackohemp.com/strains.html">Strains</a>
+      <a class="nav-item nav-link" href="https://wackohemp.com/products.html">Products</a>
+      <a class="nav-item nav-link" href="https://wackohemp.com/services.html">Services</a>
+      <a class="nav-item nav-link" href="https://wackohemp.com/about.html#contact">Contact</a>
+      <a class="btn btn-light btn-lg btn-outline-primary" data-toggle="tooltip" data-placement="bottom"
+        title="tel:+1 970-783-1819" href="tel:+1 970-783-1819">Call now <i class="fal fa-phone-square"></i></a>
     </div>
-  </nav>
+  </div>
+</nav>
 
 <body>
   <!-- Opening Carousel -->
 
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" style="max-height:90%;">
-        <div class="carousel-item">
-          <img class="d-block w-100" src="1s.jpg" alt="First slide">
-        </div>
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="1s.jpg" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="1s.jpg" alt="Third slide">
-        </div>
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" style="max-height:90%;">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="sun3b4.jpg" alt="Sunset at Wacko Farm">
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="WackoFlower.jpg" alt="Wacko Hemp Flower">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="seeds.jpg" alt="Third slide">
+      </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
   <!-- Mission Jumbotron-->
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">Fluid jumbotron</h1>
-      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      <h1 class="">Wacko Hemp</h1>
+      <p class=""> <i class="fal fa-map-pin fa-3x"></i> Delta, CO - Wacko Springs Ranch</p>
     </div>
   </div>
 
   <!-- Product Preview -->
   <div class="container">
-      <div class="card-deck mb-3 text-center" >
-          <div class="card mb-4 shadow-sm" style="border:none;">
-              <div class="card-text">
-                  <h4 class="my-0 font-weight-normal"><i class="far fa-analytics fa-5x"></i></h4>
-                </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">Organic <small class="text-muted" style="font-style:italic;">/ always</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>10 users included</li>
-                <li>2 GB of storage</li>
-                <li>Email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
-            </div>
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-sm" style="border:none;">
+        <div class="card-text" style="padding-top:10%;">
+          <h4 class="my-0 font-weight-normal"> <i class="fal fa-heart-square fa-5x"></i></h4>
+        </div>
+
+        <div class="card-body">
+            <h1 class="card-title pricing-card-title">Forward <small class="text-muted">/ products</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li><a href="https://wackohemp.com/products.html#seeds"> Seeds</a></li>
+              <li><a href="https://wackohemp.com/products.html#clones"> Clones</a></li>
+              <li><a href="https://wackohemp.com/products.html#tincture"> Tinctures</a></li>
+              <li><a href="https://wackohemp.com/products.html#cartridges"> Cartridges</a></li>
+            </ul>
+            <!--
+                  <button type="button" class="btn btn-lg btn-block btn-primary">Place Order</button>
+                  -->
           </div>
-          <div class="card mb-4 shadow-sm" style="border:none;">
-            <div class="card-text">
-              <h4 class="my-0 font-weight-normal"><i class="fal fa-acorn fa-5x"></i></h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>20 users included</li>
-                <li>10 GB of storage</li>
-                <li>Priority email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-            </div>
+
+
+      </div>
+      <div class="card mb-4 shadow-sm" style="border:none;">
+        <div class="card-text" style="padding-top:10%;">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-cannabis fa-stack-2x"></i>
+            <i class="fal fa-hands fa-stack-1x fa-inverse" style="padding-top:5%; color:cadetblue;"></i>
+          </span>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">Hemp <small class="text-muted"> / industrial</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Medicinal Properties</li>
+            <li>Fiber Source</li>
+            <li>Protein Source</li>
+            <li>Building Source</li>
+          </ul>
+          <a href="https://wackohemp.com/about.html#hemp" class="btn btn-dark" role="button" aria-pressed="true"> Learn
+            More <i class="fal fa-paper-plane"></i></a>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm" style="border:none;">
+        <div class="card-text" style="padding-top:10%;">
+          <h4 class="my-0 font-weight-normal">
+            <i class="fal fa-chart-network fa-5x"></i></h4>
+        </div>
+        <div class="card-body">
+            <h1 class="card-title pricing-card-title">Robust <small class="text-muted"> / flavonoids</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Rich Profiles</li>
+              <li>Diverse Palate</li>
+              <li>Superior Flavour</li>
+              <li>Distillates Available</li>
+            </ul>
+            <!--
+                <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                -->
           </div>
-          <div class="card mb-4 shadow-sm" style="border:none;">
-              <div class="card-text">
-                  <h4 class="my-0 font-weight-normal"><i class="fal fa-eye fa-5x"></i></h4>
-                </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>30 users included</li>
-                <li>15 GB of storage</li>
-                <li>Phone and email support</li>
-                <li>Help center access</li>
-              </ul>
-              <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+      </div>
+    </div>
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-sm" style="border:none;">
+        <div class="card-text" style="padding-top:10%;">
+          <h4 class="my-0 font-weight-normal"><i class="fal fa-atom fa-5x"></i></h4>
+        </div>
+        <div class="card-body">
+            <h1 class="card-title pricing-card-title">CBD <small class="text-muted">/ Cannabidiol</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Research Based</li>
+              <li>Pain Relief</li>
+              <li>Tested Strains</li>
+              <li>Genetic Variation</li>
+            </ul>
+  
+            <a href="https://wackohemp.com/about.html#CBD" class="btn  btn-dark" role="button" aria-pressed="true"> Learn
+              More <i class="fal fa-paper-plane"></i></a>
+          </div>
+      </div>
+
+      <div class="card mb-4 shadow-sm" style="border:none;">
+        <div class="card-text" style="padding-top:10%;">
+
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-cannabis fa-stack-2x"></i>
+            <i class="fas fa-air-freshener fa-stack-1x fa-inverse" style="padding-top:5%; color:cadetblue;"></i>
+          </span>
+
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">Diverse <small class="text-muted" style="font-style:italic;">/
+              terpenes</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>phenotypes focused for max flavor</li>
+            <li>cured for enhancement</li>
+            <li>supported by organic methods</li>
+            <li><a href="https://wackohemp.com/about#terpenes">Read More</a></li>
+          </ul>
+          <!-- <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm" style="border:none;">
+        <div class="card-text" style="padding-top:10%;">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-hand-holding fa-stack-2x"></i>
+            <i class="fal fa-cannabis fa-stack-1x fa-inverse" style="padding-bottom:10%; color:coral;"></i>
+          </span>
+        </div>
+        <div class="card-body">
+            <h1 class="card-title pricing-card-title">Organic <small class="text-muted" style="font-style:italic;">/
+                always</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Pesticide Free</li>
+              <li>Glyphosate Free</li>
+              <li>Highest Quality Inputs</li>
+              <li>Contaminant Free</li>
+            </ul>
+            <a href="https://wackohemp.com/about.html#organic" class="btn btn-dark" role="button" aria-pressed="true">
+              Learn More <i class="fal fa-paper-plane"></i></a>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Row -->
+  <div class="container">
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="organic">
+      <div class="col-md-7" style="padding-right:5%;">
+        <h2 class="featurette-heading">Organic Farming <span class="text-muted"> at it's best</span></h2>
+        <p class="lead">Incorporating all of the methods required for natural and the methods for certified organic
+          production Wacko Hemp is growth with the highest standards keeping the end product in mind from seed to
+          harvest. </p>
+      </div>
+      <div class="col-md-5">
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <img class="featurette-image img-fluid mx-auto" src="Wacko_Organic.jpg" alt="Wacko Hemp Organic"
+                style="width:300px;height:200px">
+            </div>
+            <div class="flip-box-back" style="color:black;">
+              <h2>Organic Life</h2>
+              <p><a href="https://www.wackhemp.com/about#contact">get some</a>
+              </p>
             </div>
           </div>
         </div>
-        <div class="card-deck mb-3 text-center" >
-            <div class="card mb-4 shadow-sm" style="border:none;">
-                <div class="card-text">
-                    <h4 class="my-0 font-weight-normal"><i class="far fa-analytics fa-5x"></i></h4>
-                  </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">Organic <small class="text-muted" style="font-style:italic;">/ always</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>10 users included</li>
-                  <li>2 GB of storage</li>
-                  <li>Email support</li>
-                  <li>Help center access</li>
-                </ul>
-                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
-              </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="CBD">
+      <div class="col-md-7 order-md-2" style="padding-left:5%;">
+        <h2 class="featurette-heading">Cannabidiol (CBD) <span class="text-muted"> leading the industry</span></h2>
+        <p class="lead">CBD is used worldwide as a therapeutic treatment. Wacko strains are high CBD producing. Our
+          products for consumption are made from Wacko Hemp #1 and Wacko Hemp #4.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <img class="featurette-image img-fluid mx-auto" src="Wacko_CBD.jpg" alt="Cannabidiol (CBD)"
+                style="width:300px;height:200px">
             </div>
-            <div class="card mb-4 shadow-sm" style="border:none;">
-              <div class="card-text">
-                <h4 class="my-0 font-weight-normal"><i class="fal fa-acorn fa-5x"></i></h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>20 users included</li>
-                  <li>10 GB of storage</li>
-                  <li>Priority email support</li>
-                  <li>Help center access</li>
-                </ul>
-                <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-              </div>
+            <div class="flip-box-back" style="color:black;">
+              <h2>Cannabidiol (CBD)</h2>
+              <p>get some</p>
             </div>
-            <div class="card mb-4 shadow-sm" style="border:none;">
-                <div class="card-text">
-                    <h4 class="my-0 font-weight-normal"><i class="fal fa-eye fa-5x"></i></h4>
-                  </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>30 users included</li>
-                  <li>15 GB of storage</li>
-                  <li>Phone and email support</li>
-                  <li>Help center access</li>
-                </ul>
-                <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
-              </div>
-            </div>
-          </div>      
+          </div>
+        </div>
+        <!-- 
+        <img class="featurette-image img-fluid mx-auto" src="1.jpg" alt="1.jpg">-->
+      </div>
+    </div>
+    <hr class="featurette-divider">
   </div>
+  <!-- Row -->
+  <div class="container">
+    <div class="row featurette" id="hemp">
+      <div class="col-md-7" style="padding-right:5%;">
+        <h2 class="featurette-heading">Hemp <span class="text-muted"> Wacko Strains</span></h2>
+        <p class="lead">The Cannabis family contains hemp and marijuana species. Hemp and Marijuna differ in the amount
+          of THC (tetrahydrocannabinol), the psychoactive stuff, content in the dried plant matter. Hemp will contain a
+          max level of 0.3% THC, that's less than 1 percent. Premium marijuna crops can have up to 30% THC.</p>
+      </div>
+      <div class="col-md-5">
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <img class="featurette-image img-fluid mx-auto" src="Wacko_Hemp.jpg" alt="Wacko Hemp"
+                style="width:300px;height:200px">
+            </div>
+            <div class="flip-box-back" style="color:black;">
+              <h2>Order Seeds Now</h2>
+              <p><a href="https://www.wackhemp.com/products.html">Order Form</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="flavonoids">
+      <div class="col-md-7 order-md-2" style="padding-left:5%;">
+        <h2 class="featurette-heading">Flavonoids <span class="text-muted"> for days </span></h2>
+        <p class="lead">Wacko hemp strains have diverse flavonoid profiles. Wacko strains have been cultivated and
+          developed by the master growers at Wacko Hemp. Wacko hemp strains have unique flavonoid profiles.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <img class="featurette-image img-fluid mx-auto" src="Wacko_Flavonoids.jpg" alt="Wacko Hemp Flavonoids"
+                style="width:300px;height:200px">
+            </div>
+            <div class="flip-box-back" style="color:black;">
+              <h2>Flip Text</h2>
+              <p>get some</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="terpenes" style="padding-bottom:2.5%;">
+      <div class="col-md-7" style="padding-right:5%;">
+        <h2 class="featurette-heading">Terpenes <span class="text-muted"> aromatic metabolites</span></h2>
+        <p class="lead">Terpenoids form the basis of aroma therapy. Wacko hemp strains are cultivated to enhance the
+          available terpenes for consumption.</p>
+      </div>
+      <div class="col-md-5">
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <img class="featurette-image img-fluid mx-auto" src="Wacko_Terpenes.jpg" alt="Wacko Hemp Terpenes"
+                style="width:300px;height:200px">
+            </div>
+            <div class="flip-box-back" style="color:black;">
+              <h2>Flip Text</h2>
+              <p>get some</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /END THE FEATURETTES -->
+  </div>
+
+
+  <!-- Products Jumbotron-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="">Wacko Hemp Products</h1>
+      <p>Available year round</p>
+      <p class=""> <a class="btn btn-lg btn-light" href="https://wackohemp.com/about.html#contact">Request Product
+          Online</a></p>
+      <p> | <a href="https://www.wackhemp.com/products.html#seeds"> Seeds </a> | <a
+          href="https://www.wackhemp.com/products.html#clones"> Clones </a> | <a
+          href="https://www.wackhemp.com/products.html#tinctures"> Tinctures </a> | <a
+          href="https://www.wackhemp.com/products.html#biomas"> Biomass </a> | <a
+          href="https://www.wackhemp.com/products.html#extract"> Extract </a> | <a
+          href="https://www.wackhemp.com/products.html#flower"> Boutique Flower </a> | <a
+          href="https://www.wackhemp.com/products.html#cartridges"> Cartridges </a> |</p>
+    </div>
+  </div>
+  <!-- Footer Jumbotron-->
+  <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+
   
-
-
-  <!-- Row -->
-  <div class="container">
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto" src="holder.js/500x500/auto" alt="Generic placeholder image">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-
-
-        
-          <div class="flip-box">
-              <div class="flip-box-inner">
-                <div class="flip-box-front">
-                  <img class="featurette-image img-fluid mx-auto" src="1.jpg" alt="Paris" style="width:300px;height:200px">
-                </div>
-                <div class="flip-box-back" style="color:black;">
-                  <h2>Flip Text</h2>
-                  <p>get some</p>
-                </div>
-              </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+  
+            <ul class="list-unstyled text-small ">
+              <li><a href="https://www.projectcbd.org">Project CBD</a></li>
+              <li><a class="text-muted" href="https://www.colorado.gov/pacific/agplants/industrial-hemp">Colorado
+                  Industrial Hemp</a></li>
+              <li><a class="text-muted" href="https://wwoofusa.org/">WWOOFing</a></li>
+              <!-- <li><a class="text-muted" href="#">Final resource</a></li> -->
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="https://wackohemp.com/about.html#woofing">WWooFing at Wacko</a></li>
+              <li><a class="text-muted" href="https://wackohemp.com/products.html#steps">Purchasing Steps</a></li>
+              <li><a class="text-muted" href="https://wackohemp.com/terms.html">Shipping Details</a></li>
+              <!-- <li><a class="text-muted" href="#">Terms</a></li> -->
+            </ul>
+          </div>
+          <div class="col-12 col-md">
+              <small class="d-block mb-3 text-muted">&copy; 2019 Wacko Hemp | Site designed by <a href="https://www.cliffrodriguez.com>">Cliff
+                Rodriguez</a></small>
+             
             </div>
-
-            <!-- 
-        <img class="featurette-image img-fluid mx-auto" src="1.jpg" alt="1.jpg">
-
-        -->
-
-      </div>
-    </div>
-    <hr class="featurette-divider">
-
-
-
-    <!-- /END THE FEATURETTES -->
-  </div>
-
-  <!-- Three columns -->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        1 of 3
-      </div>
-      <div class="col">
-        2 of 3
-      </div>
-      <div class="col">
-        3 of 3
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Row -->
-  <div class="container">
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto" src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
       </div>
     </div>
 
-    <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img class="featurette-image img-fluid mx-auto" src="holder.js/500x500/auto" alt="Generic placeholder image">
-      </div>
-    </div>
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto" src="holder.js/500x500/auto" alt="Generic placeholder image">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
-  </div>
-
- <!-- button fixed bottomw -->
- <div class="fixed-bottom" style="padding:5%; text-align: right;">
+  <!-- button fixed bottom -->
+  <div class="fixed-bottom" style="padding:5%; text-align: right;">
     <div class="" style="align-content: right;">
-      <a href="https://wackohemp.com/about.html#contact" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Contact Us</a>
+      <a href="https://wackohemp.com/about.html#contact" class="btn btn-lg btn-dark" role="button" aria-pressed="true">
+        Contact Us <i class="fal fa-paper-plane"></i></a>
     </div>
   </div>
-
-  <footer>
-
-  </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 </body>
 
