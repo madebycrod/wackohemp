@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="carousel.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="hover.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="jumbotron.css" crossorigin="anonymous">
+
+    <!-- Font Awesome Pro-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
+
+    <link rel="canonical" href="https://www.wackhemp.com/">
+
+    <meta name="description"
+        content="Hemp products, including clones, seeds, bio-mass, tincture, and flower. All hemp products are tested and made from sustainably grown hemp from a farm on Wacko Springs Ranch in Delta, Colorado.">
+
+    <meta name="keywords"
+        content="Wacko Hemp, Hemp Colorado, Colorado Hemp Seeds, Hemp Seeds, Hemp Clones, hemp biomass, Wacko Springs, legal hemp, Colorado Hemp, Colorado, Hemp, Organically Grown, Wacko Number One, Wacko 1, Wacko #1, Hemp Seed CO, Hemp Seed Colorado, Colorado Hemp, Wacko Hemp Colorado,">
+    <meta name="author" content="Cliff Rodriguez">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>Wacko Hemp</title>
+
+    <style>
+        /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+        .flip-box {
+            background-color: transparent;
+            width: 300px;
+            height: 200px;
+            border: 1px solid #f1f1f1;
+            perspective: 1000px;
+            /* Remove this if you don't want the 3D effect */
+        }
+
+        /* This container is needed to position the front and back side */
+        .flip-box-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform .8s;
+            transform-style: preserve-3d;
+        }
+
+        /* Do an horizontal flip when you move the mouse over the flip box container */
+        .flip-box:hover .flip-box-inner {
+            transform: rotateY(180deg);
+        }
+
+        /* Position the front and back side */
+        .flip-box-front,
+        .flip-box-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+        }
+
+        /* Style the front side (fallback if image is missing) */
+        .flip-box-front {
+            background-color: #bbb;
+            color: black;
+        }
+
+        /* Style the back side */
+        .flip-box-back {
+            background-color: #FFFFFF;
+            color: white;
+            transform: rotateY(180deg);
+        }
+    </style>
+
+
+</head>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Wacko Hemp</a>
+    <button class="navbar-toggler btn-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class=""><i class="fal fa-eye"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link " href="https://wackohemp.com/home.html">Home <span
+                    class="sr-only">(current)</span></a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="dropdown01" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">About</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="https://wackohemp.com/about.html#location">Wacko Springs Ranch</a>
+                    <a class="dropdown-item" href="https://wackohemp.com/about.html#farmers">Wacko Farmers</a>
+                    <a class="dropdown-item" href="https://wackohemp.com/about.html#wwoofing">WWOOFing</a>
+                </div>
+            </li>
+            <a class="nav-item nav-link" href="https://wackohemp.com/strains.html">Strains</a>
+            <a class="nav-item nav-link" href="https://wackohemp.com/products.html">Products</a>
+            
+            <a class="nav-item nav-link" href="https://wackohemp.com/consulting.html">Consulting</a>
+            <a class="nav-item nav-link" href="https://wackohemp.com/contact.html">Contact</a>
+            <a class="btn btn-light btn-lg btn-outline-primary" data-toggle="tooltip" data-placement="bottom"
+                title="tel:+1 970-783-1819" href="tel:+1 970-783-1819">Call now <i class="fal fa-phone-square"></i></a>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <div class="jumbotron jumbotron-fluid" style="background-image:url(3.jpg); padding-top:15%;">
+        <div class="container" id="location">
+            <div class="container" id="contact" style="background-color:#B3D3BE; ">
+                <h1 class="card-title" style="padding-top:10%; padding-left:10%;">Contact Form</h1>
+                <form class="contact-form" action="contact.php" method="POST" ">
+                  <div class=" container">
+                    <div class="form-group">
+                        <div class="row" style="padding:2%;">
+                            <input type="text" name="firstname" placeholder="first name" required="yes"
+                                autocomplete="on" tabindex="1"
+                                style="background-color:white; border-radius: 5px; padding: 5px; width:auto; width:50%;">
+                            <input type="text" name="lastname" placeholder="last name" required="yes" autocomplete="on"
+                                tabindex="2"
+                                style="background-color:white; border-radius: 5px; padding: 5px;width:50%; ">
+                        </div>
+                    </div>
+            </div>
+
+            <div class="container">
+                <div class="row" style="padding:2%;">
+                    <input type="email" name="email" placeholder="email address" required="yes" autocomplete="on"
+                        tabindex="4" style="background-color:white; border-radius: 5px; padding: 5px;width: 100%;">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row" style="padding:2%;">
+                    <input type="tel" name="tel" placeholder="phone number" required="yes" autocomplete="on"
+                        tabindex="5" style="background-color:white; border-radius: 5px; padding: 5px; width: 80%;">
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="row" style="padding:2%;">
+                    <div class="form-group">
+
+                        <label for="exampleFormControlSelect1">Interested in:</label>
+                        <select class="form-control" id="interest" name="interest" required="yes"
+                            placeholder="Example input" tabindex="6">
+                            <option selected class="text-muted">...select one</option>
+                            <option>Seeds</option>
+                            <option>Clones</option>
+                            <option>Consulting</option>
+                            <option>Biomass</option>
+                            <option>Cartridge</option>
+                            <option>Boutique Flower</option>
+                            <option>Extracts</option>
+                            <option>Tinctures</option>
+                            <option>WWoofing</option>
+                            <option>Other</option>
+                        </select>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row" style="padding:2%;">
+                    <textarea name="message" required="yes"
+                        placeholder="A short message is required.  Let us know the strain, location of your farm, best time to contact you, or anything else you'd like to share."
+                        tabindex="7"
+                        style="background-color:white; border-radius: 5px; padding: 5px; width: 100%;"></textarea>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row" style="padding:2%;">
+                    <button class="btn btn-light" type="submit" name="submit" tabindex="8"> Send Message <i
+                            class="far fa-paper-plane"></i></button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- button fixed bottomw -->
+    <div class="fixed-bottom" style="padding:5%; text-align: right;">
+        <div class="" style="align-content: right;">
+            <a href="https://wackohemp.com/contact.html" class="btn btn-secondary btn-lg active" role="button"
+                aria-pressed="true">Contact Us</a>
+        </div>
+    </div>
+
+      <!-- Footer Jumbotron-->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="row">
+    
+    
+            <div class="col-6 col-md">
+              <h5>Resources</h5>
+    
+              <ul class="list-unstyled text-small ">
+                <li><a href="https://www.projectcbd.org" target="_blank">Project CBD</a></li>
+                <li><a class="text-muted" href="https://www.colorado.gov/pacific/agplants/industrial-hemp" target="_blank">Colorado
+                    Industrial Hemp</a></li>
+                <li><a class="text-muted" href="https://wwoofusa.org/" target="_blank">WWOOFing</a></li>
+                <!-- <li><a class="text-muted" href="#">Final resource</a></li> -->
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>About</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="https://www.wackohemp.com/about.html#woofing">WWooFing at Wacko</a></li>
+                <li><a class="text-muted" href="https://www.wackohemp.com/products.html#steps">Purchasing Steps</a></li>
+                <li><a class="text-muted" href="https://www.wackohemp.com/terms.html">Shipping Details</a></li>
+                <li><a class="text-muted" href="https://www.wackohemp.com/terms.html">Terms and Conditions</a></li>
+                <!-- <li><a class="text-muted" href="#">Terms</a></li> -->
+              </ul>
+            </div>
+            <div class="col-12 col-md">
+                <small class="d-block mb-3 text-muted text-right">&copy; 2019 Wacko Hemp </a></small>
+               
+              </div>
+          </div>
+        </div>
+        </div>
+        <footer>
+          <div class="container">
+            <div class="col-12 col-md">
+              <small class="d-block mb-3 text-muted text-left">Site designed by <a href="https://www.cliffrodriguez.com>">Cliff
+                Rodriguez</a></small>
+             
+            </div>
+          </div>
+        </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
