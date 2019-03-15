@@ -9,7 +9,7 @@ $interest = $_POST['interest'];
 $subject = "Contact form Entry: ".$interest;
 $tel = $_POST['tel'];
 $message = $_POST['message'];
-$mailTo = "me@cliffrodriguez.com";
+$mailTo = "info@wackohemp.com";
 $headers = "From:".$email;
 $txt = "You have received and email from " .$firstname.".".$lastname.".\n\n".$tel.".\n\n".$interest."\n\n".$message."\n\n".$name;
 mail($mailTo, $subject, $txt, $headers);
